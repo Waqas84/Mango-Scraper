@@ -1,8 +1,3 @@
-$(document).ready(function(){
-  $('.parallax').parallax();
-  $('.modal').modal({dismissible: false});
-});
-
 $(".modal-close").on("click", function(){
   $(".oldNotes").empty()
   $(".savenote").css("background-color", "#3a6186");

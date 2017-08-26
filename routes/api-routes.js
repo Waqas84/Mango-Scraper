@@ -31,7 +31,7 @@ module.exports = function(app){
           }
         });
       });
-    res.send("Scrape Complete");
+    res.send("Scrape is done");
     });
   });
 
