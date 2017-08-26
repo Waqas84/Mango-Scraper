@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mongo Scraper</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a class="brand-logo">Mongo Scraper</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a class="waves-effect waves-light btn modal-trigger scraper" href="#modal1">Scrape New Articles!</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="/html/saved.html">Saved Articles</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="parallax-container">Mongo Scraper
+      <div class="parallax"></div>
+    </div>
+
+    <div class="articleList">
+    </div>
+
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4 class="resNo"></h4>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">You got it</a>
+      </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

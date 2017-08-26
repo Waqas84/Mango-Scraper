@@ -1,0 +1,81 @@
+.nav-wrapper {
+    background: #3a6186;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a6186, #89253e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a6186, #89253e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px;
+
+}
+
+.parallax-container {
+	color: white;
+    font-size: 100px;
+    text-shadow: 0 0 10px gray;
+    background-image: url("http://freedesignfile.com/upload/2016/10/Desktop-coffee-and-newspaper-background-photos.jpg");
+    background-color: #17234E;
+    margin-bottom: 10px;
+    min-height: 300%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    opacity: 1;
+    filter: alpha(opacity=50);
+    margin: 10px;
+}
+
+.articleList {
+    width: 100%;
+    padding: 10px;
+}
+
+.noArticles {
+    margin: 20px;
+    border-radius: 20px 20px;
+    width: auto;
+    background: #3a6186;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a6186, #3a6186);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a6186, #3a6186);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+}
+
+.deleteArt {
+    margin-right: 5px;
+}
+
+.lastNote {
+    border: 2px black;
+    background: #3a6186;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a6186, #3a6186);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a6186, #3a6186);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 1px 1px 2px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.noteTrash {
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.trashIcon {
+    margin: 2px;
+    margin-left: 2px;
+    margin-top: -10px;
+}
