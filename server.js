@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://heroku_s4q0pmcb:j9ivchidfr5rv4oia6mqqrdgsf@ds159033.mlab.com:59033/heroku_s4q0pmcb");
+mongoose.connect("mongodb://heroku_s63td4gs:afk45p1iitavhrbrq0b7jnhbq4@ds159013.mlab.com:59013/heroku_s63td4gs");
 var db = mongoose.connection;
 
 db.on("error", function(error) {
