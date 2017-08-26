@@ -1,10 +1,3 @@
-$(document).ready(function() {
-    $('.parallax').parallax();
-    $('.modal').modal();
-
-
-});
-
 $.getJSON("/articles", function(data) {
 
     if (data.length == 0) {
@@ -38,20 +31,6 @@ $(".scraper").on("click", function() {
         });
 
 })
-
-$(".removeAll").on("click", function() {
-    $.ajax({
-            method: "GET",
-            url: "/remove"
-        })
-        .done(function(data) {
-
-            console.log(data);
-            location.reload()
-        });
-
-})
-
 
 $(document).on("click", ".save", function() {
 
